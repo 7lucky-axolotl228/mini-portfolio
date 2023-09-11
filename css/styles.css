@@ -80,11 +80,67 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* SITE_HEADER  */
+.site-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__img {
+  margin-right: 45px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-header__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.site-header__subtitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.site-header__contacts {
+  margin: 0;
+}
+
+.site-header__contact-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.site-header__contact-link:hover {
+  text-decoration: underline;
+  color: rgb(31, 77, 107);
 }
 
 
@@ -92,6 +148,7 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
 
 
 
